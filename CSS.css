@@ -1,0 +1,104 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+    font-size: 18px;
+    
+    
+}
+body{
+    
+    display: flex;
+    min-width: 100vh;
+    justify-content: center;
+
+    
+}
+#img{
+    max-width: 100px;
+    
+    margin: 10% 0% 10% 30%;
+}
+
+form{
+    margin: auto;
+    width: 50%;
+    max-width: 300px;
+    border: 2px solid rgba(0, 0, 0, 0.2)
+    
+    
+}
+
+h1{
+    color:#696B69;
+    font-weight:  300;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+input{
+    display: flex;
+    flex-direction: column;   
+    background-color: white;
+    color: #CED1D2;
+    border-color: #CED1D2;         
+    border-style: solid;
+    padding: 20px;
+    margin: auto;
+    
+    
+}
+.email{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: left; 
+    font-weight: 100;
+ 
+
+}
+.password{
+    
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-style: solid;
+    border-top: none;   
+    margin-bottom: 20px;
+    text-align: left; 
+    
+}
+.entrar{
+    background-color: #17214D;
+    color: white;    
+    border-radius: 5px;    
+    border-style: none;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    
+   
+}
+
+.olvide{
+
+    background-color: white;
+    color: #CED1D2;
+    border-color: #CED1D2;
+    border-radius: 15px;
+    width: 150px;
+    padding: 3px;
+    text-align: center;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    
+
+}
