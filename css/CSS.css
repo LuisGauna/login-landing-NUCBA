@@ -1,0 +1,32 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-image: url("/img/pexels-jakub-pabis-11074304.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.container_form{
+   
+   background:rgba(0, 0, 0, 0.5);
+   border-radius: 15px;
+   padding: 40px;
+
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+}
+input{
+    display: block;
+    
+}
