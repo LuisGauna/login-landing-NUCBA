@@ -28,5 +28,35 @@ h2{
 }
 input{
     display: block;
-    
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: blanchedalmond;
+    border-bottom: 2px solid blanchedalmond;    
+}
+.boton_entrar{
+    width: 280px;
+    border-radius: 15px;
+    background-color: red;
+    align-content: center;
+    border: none;
+    margin-left: 10px;
+}
+.boton_contraseña{
+    width: 150px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid lightslategray;
+    font-size: 12px;
+    padding: 2px;
+    color: lightslategraylue;
+    margin-left: 80px;
+
+
 }
