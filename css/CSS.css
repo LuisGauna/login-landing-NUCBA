@@ -19,7 +19,7 @@ body{
    
    background:rgba(0, 0, 0, 0.5);
    border-radius: 15px;
-   padding: 40px;
+   padding: 30px;
 
 }
 h2{
@@ -41,11 +41,12 @@ input{
 }
 .boton_entrar{
     width: 280px;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: red;
     align-content: center;
     border: none;
     margin-left: 10px;
+    margin-top: 50px;
 }
 .boton_contraseña{
     width: 150px;
@@ -55,8 +56,16 @@ input{
     border: 2px solid lightslategray;
     font-size: 12px;
     padding: 2px;
-    color: lightslategraylue;
+    color: lightslategray;
     margin-left: 80px;
 
 
+}
+img{
+    background-color: transparent;
+    height: 140px;
+    margin-left: 80px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+   
 }
