@@ -49,11 +49,17 @@ input{
     border: 1px solid rgb(212, 27, 27);
     cursor: pointer;
     position: relative;
-
-
-    margin-left: 1% ;
+    margin-left: 1%;
     margin-top: 20%;
     
+    /*efecto boton clic*/
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
+    transition: 0.2s all;
+    
+}
+.boton_entrar:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.9);
 }
 
 
@@ -68,11 +74,19 @@ input{
     color: lightslategray;
     margin-left: 20%;
     margin-top: 5%;
+    /*efecto boton clic*/
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
+    transition: 0.2s all;
+
 
     cursor: pointer;
-
-
 }
+.boton_contraseña:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.9);
+}
+
+
 img{
     background-color: transparent;
     height: 20%;
